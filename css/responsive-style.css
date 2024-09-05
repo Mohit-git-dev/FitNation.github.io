@@ -1,0 +1,66 @@
+@media(max-width:991px)
+{
+    /* custon mss  */
+    section{
+        padding: 20px 0;
+    }
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 30px;
+        line-height: 40px;
+
+    }
+
+    /* 2 navbar  */
+    .header-scrolled{
+        height:auto;
+    }
+    .header-wrapper .menu-navbar-nav
+    {
+        text-align-last: center;
+        background-color: var(--bg-white);
+        padding-bottom: 15px;
+      
+     }
+        .header-wrapper .nav-item .nav-link{
+            margin-top:15px;
+    }
+    .blog-wrapper .newsletter{
+        width: 100%;
+    }
+  
+
+}
+@media(max-width:1400px)
+{
+    .servise-wrapper .servise-phone{
+        max-width: 80%;
+    }
+
+}
+@media(max-width:1230px)
+{
+    .servise-wrapper .servise-phone{
+        max-width: 100%;
+    }
+
+}
+@media(max-width:767px)
+{
+    h1{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    p{
+        font-size: 13px;
+    }
+    .main-btn{
+        font-size: 13px;
+    }
+   
+
+}
